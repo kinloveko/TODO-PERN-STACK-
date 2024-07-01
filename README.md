@@ -45,7 +45,10 @@
 
 5. Start the Application
    Run the server using Nodemon in cmd:
+    ```sh
    -cd server && nodemon index
-    
+    ```
    Open new terminal:
+    ```sh
    -cd client && npm run start
+    ```
