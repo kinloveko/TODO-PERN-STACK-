@@ -24,25 +24,25 @@
 
 1. **Set Up PostgreSQL Database**
    - Create a new database and user:
-     ```sh
-     psql -U postgres
-     ```
-     ```sql
-     CREATE DATABASE perntodo;
-     CREATE USER inventory_user WITH ENCRYPTED PASSWORD 'password';
-     GRANT ALL PRIVILEGES ON DATABASE perntodo TO inventory_user;
-     \q
-     ```
+        ```sh
+        psql -U postgres
+        ```
+        ```sql
+        CREATE DATABASE perntodo;
+        CREATE USER inventory_user WITH ENCRYPTED PASSWORD 'password';
+        GRANT ALL PRIVILEGES ON DATABASE perntodo TO inventory_user;
+        \q
+        ```
 
 2. **Clone the Repository**
-   ```sh
-   git clone https://github.com/kinloveko/PERN-STACK-TODO-.git
-   cd PERN-STACK-TODO-
+      ```sh
+      git clone https://github.com/kinloveko/PERN-STACK-TODO-.git
+      cd PERN-STACK-TODO-
 
 3. **Install Dependencies**
- ```sh
-   cd client && npm install
-```
+    ```sh
+      cd client && npm install
+    ```
 5. Start the Application
    Run the server using Nodemon in cmd:
     ```sh
