@@ -40,9 +40,9 @@
    cd PERN-STACK-TODO-
 
 3. **Install Dependencies**
-
+ ```sh
    cd client && npm install
-
+```
 5. Start the Application
    Run the server using Nodemon in cmd:
     ```sh
