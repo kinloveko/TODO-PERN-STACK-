@@ -40,6 +40,7 @@
    cd PERN-STACK-TODO-
 
 3. **Install Dependencies**
+
    cd client && npm install
 
 5. Start the Application
